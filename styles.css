@@ -1,52 +1,135 @@
-/* General Reset */
-body, h1, p {
+/* ===== Global Reset ===== */
+* {
     margin: 0;
     padding: 0;
-    font-family: 'Arial', sans-serif;
+    box-sizing: border-box;
   }
   
   body {
-    background-color: #f4f4f9;
-    color: #333;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #f5faff;
+    color: #222;
     line-height: 1.6;
+    padding: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  /* ===== Header Styling ===== */
+  .main-header {
+    background-color: #e1effa;
+    padding: 20px 0;
+    border-bottom: 2px solid #b3d7f1;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    margin-bottom: 2rem;
   }
   
   .container {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding: 20px;
-    max-width: 1200px;
-    margin: 0 auto;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 0 1.5rem;
   }
   
-  .main-header {
-    background-color: #fff;
-    border-bottom: 2px solid #ddd;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  }
-  
-  .header-left .headshot {
-    width: 100px;
-    height: auto;
+  .headshot {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
     border-radius: 50%;
+    border: 2px solid #0077cc;
   }
   
-  .header-center .name {
-    font-size: 2rem;
-    color: #333;
+  .name {
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: #004e89;
+    text-align: center;
   }
   
-  .header-right .button {
+  .button {
     text-decoration: none;
-    color: #fff;
     background-color: #0077cc;
-    padding: 10px 15px;
-    margin-left: 10px;
+    color: #fff;
+    padding: 10px 16px;
     border-radius: 5px;
+    font-size: 0.95rem;
+    margin-left: 10px;
     transition: background-color 0.3s;
   }
   
-  .header-right .button:hover {
+  .button:hover {
     background-color: #005fa3;
+  }
+  
+  /* ===== Contact Info ===== */
+  .contact-section {
+    text-align: center;
+    font-size: 0.95rem;
+    margin-bottom: 1.5rem;
+    color: #555;
+  }
+  
+  /* ===== Sections ===== */
+  .section {
+    background-color: #ffffff;
+    border: 1px solid #d0e6f7;
+    border-left: 6px solid #0077cc;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    border-radius: 6px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+  }
+  
+  .section h2 {
+    font-size: 1.4rem;
+    color: #005fa3;
+    margin-bottom: 0.5rem;
+    border-bottom: 1px solid #c0ddf5;
+    padding-bottom: 4px;
+  }
+  
+  /* ===== Subheaders & Lists ===== */
+  .section h3 {
+    font-size: 1.15rem;
+    margin-top: 1rem;
+    color: #333;
+  }
+  
+  .job-title {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .job-dates {
+    font-style: italic;
+    color: #777;
+    font-size: 0.9rem;
+  }
+  
+  ul {
+    padding-left: 1.5rem;
+    margin-top: 0.5rem;
+  }
+  
+  li {
+    margin-bottom: 0.5rem;
+  }
+  
+  /* ===== Responsive Adjustments ===== */
+  @media (max-width: 600px) {
+    .container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .header-right {
+      text-align: center;
+    }
+  
+    .button {
+      display: block;
+      margin: 10px auto;
+    }
   }
