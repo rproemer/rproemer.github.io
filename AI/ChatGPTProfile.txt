@@ -1,0 +1,111 @@
+# 🧠 Rick's Structured Memory Core (SMC)
+Version: 1.0  
+Last Exported: 2025-04-07  
+Purpose: Modular memory backup and restore for use with ChatGPT and related tools.
+
+---
+
+## 🔹 Profile
+- Name: Rick
+- DOB: 12/04/1979
+- Role: Senior Software Engineer, Project Manager, AI Developer
+- Location: California
+- Certifications: PMP (Passed), CISM (In Progress)
+- CommunicationStyle: Strategic, Direct, CliffNotes > Stephen King
+- ExplanationPreference: No fluff, minimal ELI5 unless requested
+- PersonalityMode: Balanced (humor, logic, directness)
+- InteractionMode: Random questions escalate into projects when focus emerges
+- EmotionCheckIns: Not desired
+- JournalingPreference: Organizational & goal-oriented, not emotional
+- MemoryManagement: Use topic tags like `Health:`, `Job:`, `Projects:`, etc., for cleanup and reference
+- StayUpdated: Yes — proactively notify of new AI tools, ChatGPT features, and better ways of doing things
+
+---
+
+## 🔹 Health
+- ChronicIssues: Gastroparesis, possible dysautonomia, vision-related panic triggers, persistent dizziness
+- Onset: May 28, 2000 after a pot brownie triggered first panic attack
+- Lyme: Tested negative traditionally, but spirochaetes observed; likely childhood exposure in MD/CA
+- Vitamins: Chronically low vitamin D
+- Hormones: Low testosterone, infertility (13+ years), one son (age 14.5)
+- Symptoms: Electric shock sensations, sleep issues, dehydration symptoms despite high water intake
+- VisualProcessing: Suspected right ocular migraine and misaligned eye processing speed
+- Triggers: Fast driving, TV with mountain/edge views, screen time overload
+- Treatments: Ativan, occasional alcohol; both help symptoms
+- Insomnia: Ongoing unless overridden by severe muscle/joint pain
+- HRV: Poor HRV as tracked via Fitbit despite normal EKGs
+
+---
+
+## 🔹 Projects
+
+### Project: Sylys
+- Description: Branding and business dev project focused on rapid AI tool development and monetization
+- Domains: sylys.ai, sylys.dev, sylys.store
+- Logo: Built in Photoshop with robotic symmetry concept
+- Goal: Use AI to build tools, avoid bloat, generate income
+- StackPreference: Free or affordable tools; avoid $50+/mo platforms
+- LearningApproach: Rick = architect, AI = assistant
+- FocusAreas: Automation, quick MVPs, intelligent integration of emerging AI tools
+- WorkflowTools: GitHub, VS Code, Photoshop
+
+### Project: Life Coach
+- Description: Personal productivity assistant project to help Rick build better habits and systems
+- FocusAreas: Nutrition, Mindfulness, Sleep, Light Exercise (within physical limits)
+- ToolConsolidation: Yes
+- Gamification: Enabled (streaks, side quests, badges)
+- Journal: Goal/task-focused, not emotional
+- Scheduling: Under development (time-blocking, Pomodoro, calendar sync)
+- Integration: Wants eventual sync with Google Drive, OneNote, VS Code, etc.
+- Overlaps: Financial Cleanup, Sylys
+
+### Project: Financial Cleanup
+- Description: Streamlining financial accounts, canceling unused subs, simplifying tools
+- Overlaps: Life Coach (tool audit), Sylys (integration tools)
+
+---
+
+## 🔹 Career
+- PastRole: Program Manager, DMDC (DBIDS biometric system, 2011–2021)
+- RecentRole: SharpSwitch, Inc. — AI automation + IT strategy (2021–2025)
+- Focus: IT project management, legacy system modernization, AI implementation
+- Website: www.richardroemer.com (GitHub Pages)
+- JobTarget: California state government roles (stability, 20-year tech lag = strategic opportunity)
+- ResumeGoals: Highlight AI/automation projects, Sylys work, DBIDS modernization
+- CoverLetters: Prefer custom, short-form, outcome-focused; no storytelling fluff
+
+---
+
+## 🔹 Tools & Preferences
+- IDE: VS Code w/ GitHub Copilot
+- CodingStyle: Writes core logic himself, uses AI for boilerplate/debugging/tests
+- PlatformPrefs: Clean pricing tiers (free → $5–$20 OK, avoid $50+), no vendor lock-in
+- ScreenTime: Productive/educational use OK, avoid digital noise traps
+- AppFatigue: Strong interest in building tools to consolidate digital life (future Sylys app idea)
+- Hosting: Uses GitHub Pages; prefers moving away from IONOS
+- Email: Wants to configure *@sharpswitch.com catch-all forwarding
+
+---
+
+## 🔹 Interaction Preferences
+- PreferredTone: Balanced — not robotic, not therapist-y, just real and strategic
+- ResponseStyle: Brief, clear, practical; give summaries first, details on request
+- ClarifyFirst: Always ask questions if instructions are unclear
+- TagMemory: Use prefixes like `Health:`, `Finances:`, `Project:` when saving memory
+- PushBackOK: Challenge assumptions, question logic, help refine ideas
+- Avoid: Guilt-trips, pop psych, motivational fluff
+- UseCases: General chat, project escalation, decision support, tool selection, logic sparring
+
+---
+
+## 🔹 Future Ideas
+- Project: Gamify Life Productivity App (side-quest concept)
+- Project: Memory Layer System for AI (e.g., “Remember Sammy Jankis” extension)
+- ChannelIdea: Survival sim w/ constraints + AI production tools
+- Metaphor: Humans as co-processors in a distributed neural Matrix-style network
+
+## 🔹 Likes
+- TelevisionShows: Rick & Morty, It's Always Sunny in Philadelphia
+- Movies: Interstellar
+- Sports: NFL(Chargers), NBA(Kings)
+---
