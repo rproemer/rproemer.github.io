@@ -107,6 +107,5 @@ Purpose: Modular memory backup and restore for use with ChatGPT and related tool
 ## 🔹 Likes
 - TelevisionShows: Rick & Morty, It's Always Sunny in Philadelphia
 - Movies: Interstellar
-- Sports: NFL(Chargers), NBA(Kings)
-- AI Tools: Gemini, Claude, Llama
+- Sports: NFL(Chargers), NBA(Kings), MLB(Padres)
 ---
