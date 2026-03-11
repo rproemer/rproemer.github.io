@@ -15,7 +15,7 @@
 </script>
 
 <svelte:head>
-	<title>Richard Roemer — Technical Architect & Product Leader</title>
+	<title>Richard Roemer — PMP · Systems Architect · AI Product Engineer</title>
 </svelte:head>
 
 <div class="app-shell">
