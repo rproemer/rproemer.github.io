@@ -3,7 +3,7 @@
 
 	// TODO: Sign up at https://web3forms.com (free) and replace this with your access key.
 	// The key is safe to embed in client-side code — it's tied to your email, not an auth credential.
-	const WEB3FORMS_KEY = 'YOUR_WEB3FORMS_ACCESS_KEY';
+	const WEB3FORMS_KEY = '8d6ee7a6-dc26-4090-985f-42a07dea5847';
 
 	let formState = $state<'idle' | 'submitting' | 'success' | 'error'>('idle');
 	let formData = $state({
