@@ -83,6 +83,7 @@
 			What I Do
 		</h3>
 		<div
+			class="whatido-grid"
 			style="
 				display: grid;
 				grid-template-columns: repeat(2, 1fr);
@@ -133,6 +134,9 @@
 		.about-grid {
 			grid-template-columns: 1fr !important;
 			gap: 1.5rem !important;
+		}
+		.whatido-grid {
+			grid-template-columns: 1fr !important;
 		}
 	}
 </style>
