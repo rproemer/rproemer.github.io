@@ -155,3 +155,9 @@ h6 {
 		transform: translateY(0);
 	}
 }
+
+@media (max-width: 768px) {
+	.section-fade-in {
+		padding: 1.5rem 1.25rem !important;
+	}
+}

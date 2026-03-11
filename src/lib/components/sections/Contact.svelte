@@ -45,7 +45,7 @@
 <section class="section-fade-in" style="padding: 2.5rem 3rem; max-width: 900px;">
 	<h2 class="section-title">Contact</h2>
 
-	<div style="display: grid; grid-template-columns: 280px 1fr; gap: 3rem;">
+	<div class="contact-grid" style="display: grid; grid-template-columns: 280px 1fr; gap: 3rem;">
 		<!-- Left: contact info -->
 		<div>
 			<h3
@@ -143,7 +143,7 @@
 				</div>
 			{:else}
 				<form onsubmit={handleSubmit} style="display: flex; flex-direction: column; gap: 1rem;">
-					<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+					<div class="form-row" style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
 						<div>
 							<label
 								for="name"
@@ -322,5 +322,15 @@
 	input::placeholder,
 	textarea::placeholder {
 		color: var(--color-text-muted);
+	}
+
+	@media (max-width: 768px) {
+		.contact-grid {
+			grid-template-columns: 1fr !important;
+			gap: 1.5rem !important;
+		}
+		.form-row {
+			grid-template-columns: 1fr !important;
+		}
 	}
 </style>

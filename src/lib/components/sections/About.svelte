@@ -13,7 +13,7 @@
 <section class="section-fade-in" style="padding: 2.5rem 3rem; max-width: 900px;">
 	<h2 class="section-title">About Me</h2>
 
-	<div style="display: grid; grid-template-columns: 1fr 280px; gap: 3rem; margin-bottom: 3rem;">
+	<div class="about-grid" style="display: grid; grid-template-columns: 1fr 280px; gap: 3rem; margin-bottom: 3rem;">
 		<!-- Summary -->
 		<div>
 			<p style="font-size: 15px; line-height: 1.9; color: var(--color-text-base); margin-bottom: 1.5rem;">
@@ -127,3 +127,12 @@
 		</div>
 	</div>
 </section>
+
+<style>
+	@media (max-width: 768px) {
+		.about-grid {
+			grid-template-columns: 1fr !important;
+			gap: 1.5rem !important;
+		}
+	}
+</style>
