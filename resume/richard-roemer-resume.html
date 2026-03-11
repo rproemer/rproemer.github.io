@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Richard Roemer — Resume</title>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600;700;800&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Open Sans', sans-serif; font-size: 9.35pt; color: #333; line-height: 1.41; background: #fff; }
+  a { color: #2563eb; text-decoration: none; }
+  .page { width: 8.4in; margin: 0 auto; display: grid; grid-template-columns: 1fr 276px; }
+  .header { grid-column: 1 / -1; background: linear-gradient(135deg, #f8fbff 0%, #edf3f8 100%); padding: 20px 33px 14px; border-bottom: 1px solid #d0d5dd; position: relative; }
+  .header::after { content: ""; position: absolute; top: 0; right: 33px; width: 116px; height: 4px; background: linear-gradient(90deg, #2563eb 0%, #0f766e 100%); border-radius: 0 0 4px 4px; }
+  .header-top { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+  .header-left { min-width: 0; }
+  .header-kicker { display: flex; align-items: center; gap: 11px; margin-bottom: 7px; }
+  .header-eyebrow { font-size: 7.6pt; font-weight: 700; color: #2563eb; letter-spacing: 0.17em; text-transform: uppercase; }
+  .header-badge { font-size: 7.3pt; font-weight: 700; color: #0f172a; background: #fff; border: 1px solid #94a3b8; border-radius: 999px; padding: 1px 7px; }
+  .header h1 { font-family: 'Raleway', sans-serif; font-size: 26.2pt; font-weight: 800; color: #0f172a; letter-spacing: 0.01em; line-height: 1.02; margin-bottom: 0; }
+  .header-callout-wrap { margin-left: auto; text-align: right; }
+  .header-callout { padding: 5px 9px; border: 1px solid #cbd5e1; border-radius: 10px; background: rgba(255, 255, 255, 0.8); box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.9); }
+  .header-callout-title { display: block; font-size: 8.8pt; font-weight: 700; color: #1e293b; line-height: 1.18; }
+  .header-callout-subtitle { display: block; font-size: 7.4pt; font-weight: 600; color: #64748b; line-height: 1.18; }
+  .header-note { margin-top: 1px; font-size: 7pt; font-style: italic; color: #64748b; line-height: 1.08; }
+  .header-note a { color: #2563eb; }
+  .header-contact { grid-column: 1 / -1; background: #f0f4f8; padding: 8px 33px 9px; text-align: center; font-size: 8.3pt; font-weight: 700; color: #64748b; border-bottom: 1px solid #94a3b8; position: relative; box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.9); }
+  .header-contact::after { content: ""; position: absolute; left: 33px; right: 33px; bottom: -3px; height: 3px; background: linear-gradient(180deg, rgba(148, 163, 184, 0.2) 0%, rgba(148, 163, 184, 0.06) 55%, rgba(148, 163, 184, 0) 100%); pointer-events: none; }
+  .header-contact span { margin: 0 9px; }
+  .header-contact span + span::before { content: "•"; margin-right: 9px; color: #94a3b8; }
+  .header-contact a { color: #2563eb; }
+  .sidebar { background: linear-gradient(180deg, #fbfdff 0%, #f8fafc 100%); padding: 14px 22px 13px 18px; border-left: 1px solid #d7e0ea; position: relative; box-shadow: inset 1px 0 0 rgba(255, 255, 255, 0.9); }
+  .sidebar::before { content: ""; position: absolute; top: 0; left: 0; width: 100%; height: 4px; background: linear-gradient(90deg, rgba(37, 99, 235, 0.18) 0%, rgba(37, 99, 235, 0.08) 45%, rgba(15, 118, 110, 0.08) 100%); border-top: 1px solid rgba(148, 163, 184, 0.4); }
+  .sidebar::after { content: ""; position: absolute; top: 0; bottom: 0; left: -6px; width: 6px; background: linear-gradient(90deg, rgba(148, 163, 184, 0.18) 0%, rgba(148, 163, 184, 0.08) 55%, rgba(148, 163, 184, 0) 100%); pointer-events: none; }
+  h2.section-head { font-family: 'Raleway', sans-serif; font-size: 11.7pt; font-weight: 700; color: #1e293b; border-bottom: 2px solid #2563eb; padding-bottom: 3px; margin-bottom: 9px; text-transform: uppercase; letter-spacing: 0.06em; }
+  h2.side-head { font-family: 'Raleway', sans-serif; font-size: 10.8pt; font-weight: 700; color: #1e293b; border-bottom: 2px solid #2563eb; padding-bottom: 3px; margin-bottom: 9px; text-transform: uppercase; letter-spacing: 0.06em; }
+  .job { margin-bottom: 11px; }
+  .job-top { display: flex; justify-content: space-between; align-items: baseline; }
+  .job h3 { font-size: 10.3pt; font-weight: 700; color: #1e293b; }
+  .job .date { font-size: 7.8pt; color: #2563eb; font-weight: 600; border: 1px solid #2563eb; border-radius: 10px; padding: 1px 7px; white-space: nowrap; }
+  .job .meta { font-size: 8.3pt; color: #64748b; margin-bottom: 4px; }
+  .job ul { padding-left: 13px; list-style-type: disc; }
+  .job ul li { margin-bottom: 2px; }
+  .achieve { margin-bottom: 11px; }
+  .achieve h4 { font-size: 9.2pt; font-weight: 700; color: #2563eb; margin-bottom: 2px; }
+  .achieve p { font-size: 8.3pt; color: #475569; }
+  .skill-group { margin-bottom: 9px; }
+  .skill-group h4 { font-size: 8.3pt; font-weight: 700; color: #1e293b; text-transform: uppercase; letter-spacing: 0.04em; margin-bottom: 2px; }
+  .skill-group p { font-size: 8.3pt; color: #475569; }
+  @media print { body { margin: 0; padding: 0; -webkit-print-color-adjust: exact; print-color-adjust: exact; } .page { width: 100%; min-height: auto; } @page { margin: 0; size: letter; } }
+</style>
+</head>
+<body>
+<div class="page">
+  <header class="header">
+    <div class="header-top">
+      <div class="header-left">
+        <div class="header-kicker">
+          <span class="header-eyebrow">Enterprise Systems • AI Platforms</span>
+          <span class="header-badge">PMP</span>
+        </div>
+        <h1>Richard Roemer</h1>
+      </div>
+      <div class="header-callout-wrap">
+        <div class="header-callout">
+          <span class="header-callout-title">Enterprise AI Systems Architect</span>
+          <span class="header-callout-subtitle">Systems Architecture • B2B SaaS • Technical Program Leadership</span>
+        </div>
+        <div class="header-note">Summary only • Full project details at <a href="https://richardroemer.com">richardroemer.com</a></div>
+      </div>
+    </div>
+  </header>
+  <div class="header-contact">
+    <span>connect@richardroemer.com</span>
+    <span>(916) 335-5224</span>
+    <span>Sacramento, CA</span>
+    <span><a href="https://richardroemer.com">richardroemer.com</a></span>
+  </div>
+
+  <!-- LEFT COLUMN -->
+  <main style="padding: 14px 22px 13px 33px;">
+    <section style="margin-bottom: 13px;">
+      <h2 class="section-head">Summary</h2>
+      <p>PMP-certified program manager and systems architect with 15+ years delivering enterprise platforms for the Department of Defense, state government, and B2B clients. Led a global DoD identity platform serving 16M+ users across 500+ military installations. Now building AI-native B2B SaaS platforms end-to-end &mdash; architecture, delivery, and full-stack engineering &mdash; using LLM orchestration, agentic workflows, and structured human-AI pipelines.</p>
+    </section>
+    <section style="margin-bottom: 13px;">
+      <h2 class="section-head">Experience</h2>
+
+      <div class="job">
+        <div class="job-top"><h3>Founder &amp; Principal Engineer</h3><span class="date">Jan 2025 – Present</span></div>
+        <div class="meta">Q7Core &middot; Sacramento, CA</div>
+        <ul>
+          <li>Designed and operate an AI-augmented engineering pipeline — AI-assisted architecture, Linear sprint management, Notion documentation, GitHub code — with structured handoffs between human review and autonomous AI execution.</li>
+          <li>Built multi-tenant B2B SaaS platforms integrating real-time government APIs, AI-driven document extraction, and automated permit lifecycle tracking across multiple municipal jurisdictions.</li>
+          <li>Architected a local-first AI desktop client with multi-model LLM routing (400+ models), BYOK key management via OS keychain encryption, and a developer-grade request/response inspector.</li>
+          <li>Built an autonomous AI agent with persistent vector memory executing scheduled intelligence-gathering workflows.</li>
+          <li>Developed AI-powered intelligence pipelines that analyze unstructured media and convert extracted concepts into structured development and planning workflows.</li>
+        </ul>
+      </div>
+      <div class="job">
+        <div class="job-top"><h3>Senior Advisory Consultant</h3><span class="date">Nov 2022 – Jan 2025</span></div>
+        <div class="meta">SharpSwitch &middot; Remote</div>
+        <p>Technical and strategic advisory for B2B SaaS product planning, architecture, and technology selection, supporting early-stage platform design and go-to-market strategy.</p>
+      </div>
+
+      <div class="job">
+        <div class="job-top"><h3>Program Manager</h3><span class="date">2016 – 2022</span></div>
+        <div class="meta">Defense Manpower Data Center (DMDC) &middot; Department of Defense &middot; Monterey, CA</div>
+        <ul>
+          <li>Directed modernization of a global DoD identity verification and physical access platform — <strong>500+ military installations</strong>, <strong>16M+ enrolled users</strong>, <strong>1M+ daily secure transactions</strong>.</li>
+          <li>Led 50+ cross-functional staff across concurrent Agile workstreams. Authored the program charter securing multi-year funding for platform modernization.</li>
+          <li>Expanded platform across all U.S. military branches and Coast Guard (DHS). Integrated FBI TSDB, NLETS, and IoLS for real-time threat vetting.</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <div class="job-top"><h3>Principal Architect / Sr. Software Engineer</h3><span class="date">2011 – 2016</span></div>
+        <div class="meta">Defense Manpower Data Center (DMDC) &middot; Department of Defense &middot; Monterey, CA</div>
+        <p>Led architecture modernization from legacy monolith to SOA (C#, .NET, SQL Server, Entity Framework). Designed secure APIs connecting biometric stations, access control hardware, and centralized identity databases across DoD networks.</p>
+      </div>
+    </section>
+  </main>
+  <!-- RIGHT SIDEBAR -->
+  <aside class="sidebar">
+
+    <section style="margin-bottom: 15px;">
+      <h2 class="side-head">Key Achievements</h2>
+      <div class="achieve">
+        <h4>Global DoD Identity Platform</h4>
+        <p>Led modernization of a worldwide identity verification platform supporting all U.S. military service branches — 500+ installations, 16M+ users, and 1M+ daily transactions.</p>
+      </div>
+      <div class="achieve">
+        <h4>AI-Augmented Systems Engineering</h4>
+        <p>Designed hybrid human-AI development pipelines integrating LLM tooling, automated task execution, and structured review workflows to accelerate complex engineering projects.</p>
+      </div>
+      <div class="achieve">
+        <h4>Enterprise Platform Modernization</h4>
+        <p>Led architectural modernization initiatives transforming legacy systems into modular service platforms with secure APIs, distributed processing, and cloud-ready infrastructure.</p>
+      </div>
+      <div class="achieve">
+        <h4>Document Intelligence Automation</h4>
+        <p>Developed multi-stage AI pipelines for extracting structured data from complex documents, enabling scalable onboarding and operational workflows.</p>
+      </div>
+    </section>
+    <section style="margin-bottom: 15px;">
+      <h2 class="side-head">Skills</h2>
+      <div class="skill-group">
+        <h4>Program Management</h4>
+        <p>Agile/Scrum, Waterfall, Risk Management, Stakeholder Alignment, Roadmap Definition, Budget Oversight, Cross-Functional Team Leadership, Vendor Management, Delivery Planning, Executive Communication</p>
+      </div>
+      <div class="skill-group">
+        <h4>Enterprise Development</h4>
+        <p>C#, .NET Core / .NET Framework, SQL Server (T-SQL, SSIS, SSRS), Entity Framework / LINQ, Azure DevOps / TFS, REST APIs, Microservices, SOA, Systems Integration, Secure API Design</p>
+      </div>
+      <div class="skill-group">
+        <h4>AI &amp; Modern Stack</h4>
+        <p>LLM Orchestration, Agentic AI, MCP, RAG / Vector Search, Vision AI, Python / FastAPI, SvelteKit 5, React / Next.js, Supabase / PostgreSQL, Rust / Tauri 2, Docker, AI Workflow Automation, Prompt Engineering</p>
+      </div>
+    </section>
+
+    <section style="margin-bottom: 13px;">
+      <h2 class="side-head">Certifications</h2>
+      <p style="font-size: 8.8pt;"><strong>Project Management Professional</strong><br><span style="font-size: 8.2pt; color: #2563eb;">PMP #4061790</span> &middot; <span style="color: #64748b;">PMI</span></p>
+    </section>
+  </aside>
+
+</div>
+</body>
+</html>
